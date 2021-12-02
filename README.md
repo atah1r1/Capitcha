@@ -1,1 +1,1 @@
-Capitcha app
+Capitcha (React captcha component)
