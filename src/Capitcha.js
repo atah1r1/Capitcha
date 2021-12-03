@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import React from 'react';
 
 export default function Capitcha({
@@ -16,10 +16,10 @@ export default function Capitcha({
 	reloadCustomClass = '',
 }) {
 
+	
+	
 	const [captchaValue, setCaptchaValue] = useState(defaultCaptchaText);
-
-
-
+	
 	const getRandomCaptcha = () => {
 		const getGenRand = (max, min) => {
 			const rando = (max, min) => {
@@ -42,6 +42,7 @@ export default function Capitcha({
 	useEffect(() => {
 		getRandomCaptcha();
 	}, [])
+
 	useEffect(() => {
 		setCaptchaText(defaultCaptchaText);
 	}, [setCaptchaText, defaultCaptchaText])
