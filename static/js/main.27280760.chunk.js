@@ -1,0 +1,2 @@
+(this.webpackJsonptesting=this.webpackJsonptesting||[]).push([[0],{97:function(t,e,c){"use strict";c.r(e);var n=c(8),a=c(46),s=c.n(a),i=c(48),r=c(47),h=c(5);var j=function(){var t=Object(n.useState)(null),e=Object(i.a)(t,2),c=(e[0],e[1]);return Object(h.jsxs)("div",{children:[Object(h.jsx)("h1",{style:{textAlign:"center"},children:"React Captcha Component"}),Object(h.jsx)(r.Capitcha,{setCaptchaText:c,captchaSize:10})]})};s.a.render(Object(h.jsx)(j,{}),document.getElementById("root"))}},[[97,1,2]]]);
+//# sourceMappingURL=main.27280760.chunk.js.map
